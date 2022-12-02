@@ -1,5 +1,7 @@
 # Generating Diffusion Prompts
 
-Mastermind_RL_Diffusion.ipynb is the code for our currently working Mastermind game using DALL-E 2 and a simple agent.
+code directory has the primary code for the environment, neural network, generating and scoring images, and training an agent
 
-rl_agent.ipynb has some code currently in development for a more capable, reinforcement learning-based agent for playing Mastermind.
+Mastermind directory has the code for training an RL agent to play an implementation of Mastermind, without the image similarities implemented
+
+data includes downloaded DALL-E 2 images created using a set of prompts, for training offline without connecting to OpenAI's API
