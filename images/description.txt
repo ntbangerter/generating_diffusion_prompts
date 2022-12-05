@@ -1,0 +1,20 @@
+target_image.jpg - Prompt: Magician performing a magic trick with a deck of cards.
+
+best_image prompt: a man wearing a suit and a red tie and holding four cards
+    similarity: 0.9
+
+Questions asked:
+    "Who is the subject"
+    "Describe what the subject is doing"
+    "Where is the image?"
+    "Describe the composition of the image"
+    "Describe the background of the image"
+    "How close is the subject"
+    "What is the style of the image"
+    "What is the " + subject[0] + " wearing?"
+    "What is the " + subject[0] + " playing with?"
+
+
+new_images:
+    prompt: a man wearing a suit and a red tie and holding four cards;man;juggling;in front of man;action;black;very close;artistic;suit;cards
+    similarity: [0.8345, 0.845, 0.9053, 0.816, 0.857]
